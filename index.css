@@ -411,8 +411,8 @@ box-sizing: border-box;
 .slider__item {
     flex: 0 0 100%;
     max-width: 100%;
-    margin-left: 65px;
-    margin-right: 65px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 @media (min-width: 576px) {
@@ -437,18 +437,12 @@ box-sizing: border-box;
 }
 
 .slider__control {
-    /* position: absolute; */
-    /* position: relative;
-    top: -218px;
-    left: -50px; */
+    position: absolute;
     top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
     color: #fff;
     text-align: center;
     bottom: 0;
@@ -559,12 +553,156 @@ box-sizing: border-box;
     margin-top: 32px;
 }
 
-/* .iconNextNew{
-    width: 48px;
-    height: 48px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 14px 1px rgba(0, 0, 0, 0.16);
-    border-radius: 50%;
-    /* padding-top: 10px;
-    padding-left: 20px; */
-/* } */ 
+.divSubTitle{
+    font-family: 'Gilroy';
+    font-size: 20px;
+    color: #616161;
+    margin-top: 100px;
+    margin-left: 652px;
+}
+
+.mt{
+    margin-top: 8px;
+}
+
+.gallery{
+    overflow: hidden;
+    position: relative;
+    height: 770px;
+}
+
+.one{
+    position: absolute;
+    top:0px;
+    left: -70px;
+}
+
+.two{
+    position: absolute;
+    top:402px;
+    left: -70px;
+}
+
+.three{
+    position: absolute;
+    top:68px;
+    left: 230px;
+}
+
+.four{
+    position: absolute;
+    top:129px;
+    left: 707px;
+}
+
+.five{
+    position: absolute;
+    top:436px;
+    left: 1023px;
+}
+
+.six{
+    position: absolute;
+    top:403px;
+    left: 337px;
+}
+
+.seven{
+    position: absolute;
+    top:72px;
+    left: 1024px;
+}
+
+.eight{
+    position: absolute;
+    top:436px;
+    left: 1224px;
+}
+
+.nine{
+    position: absolute;
+    top: -14px;
+    right: -241px;
+}
+
+.info{
+    width: 249px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    color: #616161;
+}
+
+.text{
+    margin-left: 42px;
+    margin-top: 54px;
+}
+
+.logoText .logo{
+    margin-left: 100px;
+    margin-top: 49px;
+}
+
+.footer .adress .text{
+    margin-top: 14px;
+    margin-left: 7px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    color: #616161;
+}
+
+.footer .phone .text{
+    margin-top: 14px;
+    margin-left: 7px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    color: #616161;
+}
+.footer .site{
+    font-family: 'Gilroy';
+    font-size: 16px;
+    color: #616161;
+}
+
+.footer .contact .titleText{
+    margin-top: 44px;
+}
+
+.footer .contact .title{
+    margin-top: 38px;
+    font-family: 'Gilroy';
+    font-size: 24px;
+    color: #000000;
+    margin-left: 201px;
+}
+
+.footer .contact .titleText .text{
+    margin-top: 0px;
+    height: 24px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    color: #616161;
+    text-decoration: none;
+}
+
+.footer .menu {
+    align-items: baseline;
+    margin-left: 201px;
+}
+
+.footer .menu .title{
+    font-family: 'Gilroy';
+    font-size: 24px;
+    color: #000000;
+}
+
+.footer .menu .text{
+    margin-top: 43px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    color: #616161;
+}
+
+.footer{
+    padding-bottom: 49px;
+    background: #FCF8F3;
+}

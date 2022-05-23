@@ -145,12 +145,11 @@ let gallery = [
     './img/gallery/Rectangle 38.png',
     './img/gallery/Rectangle 40.png',
     './img/gallery/Rectangle 41.png',
-    './img/gallery/Rectangle 42.png',
+    './img/gallery/Rectangle 46.png',
     './img/gallery/Rectangle 43.png',
     './img/gallery/Rectangle 44.png',
     './img/gallery/Rectangle 45.png',
-    './img/gallery/Rectangle 46.png',
-]
+];
 
 let header = document.createElement('header');
 header.classList.add('header');
@@ -447,8 +446,8 @@ newDiv.innerHTML= `
     </div>
     </div>
 </div>
-<a class="slider__control slider__control_left iconNextNew" href="#" role="button"></a>
-<a class="slider__control slider__control_right iconNextNew" href="#" role="button"></a>
+<a class="slider__control slider__control_left " href="#" role="button"></a>
+<a class="slider__control slider__control_right " href="#" role="button"></a>
 </div>
 
 </div>
@@ -703,6 +702,7 @@ document.body.appendChild(divSubTitle);
 
 let divTitleTwo = document.createElement('div');
 divTitleTwo.classList.add('divText');
+divTitleTwo.classList.add('mt');
 divTitleTwo.innerHTML=`#FuniroFurniture`;
 document.body.appendChild(divTitleTwo);
 
@@ -720,3 +720,41 @@ gallerys.innerHTML=`
 <img class="nine" src="${gallery[8]}" alt="" />
 `
 document.body.appendChild(gallerys);
+
+
+let footer = document.createElement('div');
+footer.classList.add('footer');
+footer.classList.add('flex');
+footer.innerHTML=`
+<div class="logoText flex">
+<img class="logo" src="./img/logo.svg" alt="">
+<div class="text">
+<p class="info">Worldwide furniture store since 2020. We sell over 1000+ branded products on our website</p>
+<div class="adress flex">
+<img class="adress" src="./img/Pin 24px.svg" alt="">
+<p class="text">Sawojajar Malang, Indonesia</p>
+</div>
+<div class="phone flex">
+<img class="phone" src="./img/Phone 24px.svg" alt="" />
+<p class="text">+37529 3658157</p>
+</div>
+<p class="site">www.funiro.com</p>
+</div>
+</div>
+
+<div class="contact flex">
+<p class="title">Stay Connected</p>
+<div class="titleText">
+<p><a href="#" class="text">Facebook</a></p>
+<p><a href="#" class="text">Instagram</a></p>
+<p><a href="#" class="text">Twitter</a></p>
+</div>
+</div>
+
+<div class="menu flex">
+<p class="title">Menu</p>
+<p class="text">About Us</p>
+</div>
+`
+
+document.body.appendChild(footer)
