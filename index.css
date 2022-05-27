@@ -129,12 +129,21 @@
 .mainTextContainer{
     position: absolute;
     width: 494px;
-    height: 553px;
+    height: 582px;
     background: rgba(255, 255, 255, 0.72);
     backdrop-filter: blur(31px);
     left: 100px;
     top: 141px;
     z-index: 44;
+}
+
+.cardBtn{
+    margin-left: 30px;
+    background: #E89F71;
+    border: none;
+    color: white;
+    height: 34px;
+    width: 125px;
 }
 
 .mainTextContainer p{
@@ -705,4 +714,224 @@ box-sizing: border-box;
 .footer{
     padding-bottom: 49px;
     background: #FCF8F3;
+}
+
+.modalWind {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 12px;
+    background: #FCF8F3;
+    z-index: 563;
+    width: 1236px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 50px;
+}
+
+.divProdBskt{
+    width: 503px;
+    display: flex;
+    height: 308px;
+    background: white;
+    position: relative;
+    box-shadow: 0px 4px 9px 1px rgba(0, 0, 0, 0.07);
+    /* margin-top: 60px;
+    margin-left: 60px; */
+}
+
+.bgBskt{
+    background: white;
+    margin-top: 38px;
+    
+}
+
+.bsktImg{
+    width: 194px;
+    height: 205px;
+    margin-top: 38px;
+    margin-left: 52px;
+    margin-right: 19px;
+}
+
+.minus{
+    width: 63px;
+    height: 56px;
+    border: 1px solid #E89F71;
+    padding-left: 18px;
+    padding-top: 11px;
+    margin-left: 17px;
+}
+
+.nmbr{
+    width: 63px;
+    height: 56px;
+    background: #E89F71;
+    color: white;
+    font-family: 'Gilroy';
+    font-size: 24px;
+    padding-left: 27px;
+    padding-top: 7px;
+}
+
+.plus{
+    width: 63px;
+    height: 56px;
+    border: 1px solid #E89F71;
+    padding-left: 14px;
+    padding-top: 8px;
+}
+
+.elPrSubNewPrice{
+    margin-bottom: 22px;
+}
+
+.iconBskt{
+    top: 10px;
+    position: absolute;
+    left: 458px;
+}
+
+.bgModal{
+    background: #00000058;
+    position: absolute;
+    z-index: 50;
+    width: 100%;
+    height: 100%;
+}
+
+.none{
+    display: none;
+}
+
+.buskets{
+    margin-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 20px;
+}
+
+.newBG{
+    height: 107px;
+}
+
+.numberNon{
+    position: absolute;
+    left: 1437px;
+    top: 37px;
+}
+
+
+.pos{
+    align-items: baseline;
+}
+
+.dis{
+    display: block;
+}
+
+.busketsnone{
+    display: block;
+}
+
+.newBGOne{
+    display: inline;
+    background: #F9F1E7;
+    width: 964px;
+    height: 774px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -4;
+}
+
+.newBGTwo{
+    background: #FCF8F3;
+    width: 555px;
+    height: 774px;
+    position: absolute;
+    top: 0;
+    left: 963px;
+    z-index: -4;
+}
+
+.inline{
+    display: flex;
+}
+
+.divProductNow{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    grid-row-gap: 32px;
+    margin-left: 100px;
+    margin-top: 100px;
+}
+
+.bgBskt{
+    height: 900px;
+}
+
+.bgCardTitle{
+    font-family: 'Gilroy';
+    font-size: 46px;
+    color: #3A3A3A;
+    margin-top: 200px;
+    margin-left: 720px;
+    margin-bottom: 20px;
+}
+
+.bgCardText{
+    font-family: 'Gilroy';
+    font-size: 33px;
+    color: #898989;
+    margin-left: 720px;
+    margin-bottom: 336px;
+}
+
+.textInfo{
+    position: absolute;
+    font-family: 'Gilroy';
+    font-size: 27px;
+    width: 584px;
+    top: 449px;
+    left: 720px;
+}
+
+.elPrSubNewPrice{
+    margin-top: 107px;
+    font-family: 'Gilroy';
+    font-size: 32px;
+    margin-left: 726px;
+}
+
+.bsktImgNew{
+    position: absolute;
+    top:245px;
+    left: 152px;
+    width: 509px;
+    height: 582px;
+}
+
+.nBtnCard{
+    width: 374px;
+    height: 78px;
+    background: #E89F71;
+    border: 0px;
+    margin-left: 135px;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.back{
+    position: absolute;
+    top: 158px;
+    left: 95px;
 }

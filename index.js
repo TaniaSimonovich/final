@@ -16,70 +16,78 @@ let nameOfTheMain = [
     }
 ];
 
-let tolety = [
+let products = [
     {
         img:'./img/image 1.png',
         title: 'Syltherine',
         subTitle: 'Stylish cafe chair',
-        newPrice: '500$',
+        newPrice: '500',
         price: '700$',
-        sale: '-30%'
+        sale: '-30%',
+        info: 'a symphony of home comfort and comfortable rest. The wide seat and laconic forms have made this sofa a favorite in families where they like to spend time together or receive guests. Significant advantages of the model are the possibility of transformation into a full-fledged sleeping place, a simple and reliable folding mechanism and, of course, an affordable price!'
     },
     {
         img: './img/image 2.png',
         title: 'Leviosa',
         subTitle: 'Stylish cafe chair',
-        newPrice: '700$',
+        newPrice: '700',
         price: '250$',
-        sale: 'New'
+        sale: 'New',
+        info: 'a symphony of home comfort and comfortable rest. The wide seat and laconic forms have made this sofa a favorite in families where they like to spend time together or receive guests. Significant advantages of the model are the possibility of transformation into a full-fledged sleeping place, a simple and reliable folding mechanism and, of course, an affordable price!'
     },
     {
         img: './img/image 3.png',
         title: 'Lolito',
         subTitle: 'Luxury big sofa',
-        newPrice: '700$',
+        newPrice: '700',
         price: '1400$',
         sale: '-50%',
+        info: 'a symphony of home comfort and comfortable rest. The wide seat and laconic forms have made this sofa a favorite in families where they like to spend time together or receive guests. Significant advantages of the model are the possibility of transformation into a full-fledged sleeping place, a simple and reliable folding mechanism and, of course, an affordable price!'
     },
     {
         img: './img/image 4.png',
         title: 'Respira',
         subTitle: 'Minimalist fan',
-        newPrice: '700$',
+        newPrice: '700',
         price: '140$',
-        sale: 'New'
+        sale: 'New',
+        info: 'a symphony of home comfort and comfortable rest. The wide seat and laconic forms have made this sofa a favorite in families where they like to spend time together or receive guests. Significant advantages of the model are the possibility of transformation into a full-fledged sleeping place, a simple and reliable folding mechanism and, of course, an affordable price!'
     },
     {
         img: './img/image 5.png',
         title: 'Grifo',
         subTitle: 'Night lamp',
-        newPrice: '700$',
+        newPrice: '700',
         price: '200$',
-        sale: 'New'
+        sale: 'New',
+        info: 'a symphony of home comfort and comfortable rest. The wide seat and laconic forms have made this sofa a favorite in families where they like to spend time together or receive guests. Significant advantages of the model are the possibility of transformation into a full-fledged sleeping place, a simple and reliable folding mechanism and, of course, an affordable price!'
     },
     {
         img: './img/image 6.png',
         title: 'Muggo',
         subTitle: 'Small mug',
-        newPrice: '700$',
+        newPrice: '700',
         price: '20$',
-        sale: 'New'
+        sale: 'New',
+        info: 'a symphony of home comfort and comfortable rest. The wide seat and laconic forms have made this sofa a favorite in families where they like to spend time together or receive guests. Significant advantages of the model are the possibility of transformation into a full-fledged sleeping place, a simple and reliable folding mechanism and, of course, an affordable price!'
     },
     {
         img: './img/image 7.png',
         title: 'Pingky',
         subTitle: 'Cute bed set',
-        newPrice: '100$',
+        newPrice: '100',
         price:'200$',
-        sale:'-50%'
+        sale:'-50%',
+        info: 'a symphony of home comfort and comfortable rest. The wide seat and laconic forms have made this sofa a favorite in families where they like to spend time together or receive guests. Significant advantages of the model are the possibility of transformation into a full-fledged sleeping place, a simple and reliable folding mechanism and, of course, an affordable price!'
     },
     {
         img: './img/image 8.png',
         title: 'Potty',
         subTitle: 'Minimalist flower pot',
-        newPrice: '700$',
+        newPrice: '700',
         price: '60$',
-        sale: 'New'
+        sale: 'New',
+        info: 'a symphony of home comfort and comfortable rest. The wide seat and laconic forms have made this sofa a favorite in families where they like to spend time together or receive guests. Significant advantages of the model are the possibility of transformation into a full-fledged sleeping place, a simple and reliable folding mechanism and, of course, an affordable price!'
     }
 ];
 
@@ -151,18 +159,88 @@ let gallery = [
     './img/gallery/Rectangle 45.png',
 ];
 
+let ShowMore = [
+    {
+        img:'./img/image 1.png',
+        title: 'Syltherine',
+        subTitle: 'Stylish cafe chair',
+        newPrice: '500',
+        price: '700$',
+        sale: '-30%'
+    },
+    {
+        img: './img/image 2.png',
+        title: 'Leviosa',
+        subTitle: 'Stylish cafe chair',
+        newPrice: '700',
+        price: '250$',
+        sale: 'New'
+    },
+    {
+        img: './img/image 3.png',
+        title: 'Lolito',
+        subTitle: 'Luxury big sofa',
+        newPrice: '700',
+        price: '1400$',
+        sale: '-50%',
+    },
+    {
+        img: './img/image 4.png',
+        title: 'Respira',
+        subTitle: 'Minimalist fan',
+        newPrice: '700',
+        price: '140$',
+        sale: 'New'
+    },
+    {
+        img: './img/image 5.png',
+        title: 'Grifo',
+        subTitle: 'Night lamp',
+        newPrice: '700',
+        price: '200$',
+        sale: 'New'
+    },
+    {
+        img: './img/image 6.png',
+        title: 'Muggo',
+        subTitle: 'Small mug',
+        newPrice: '700',
+        price: '20$',
+        sale: 'New'
+    },
+    {
+        img: './img/image 7.png',
+        title: 'Pingky',
+        subTitle: 'Cute bed set',
+        newPrice: '100',
+        price:'200$',
+        sale:'-50%'
+    },
+    {
+        img: './img/image 8.png',
+        title: 'Potty',
+        subTitle: 'Minimalist flower pot',
+        newPrice: '700',
+        price: '60$',
+        sale: 'New'
+    }
+]
+
+let busket = [];
+
 let header = document.createElement('header');
 header.classList.add('header');
 header.innerHTML=`
 <div class="headerText">
-<img class="logo" src="./img/logo.svg" alt="">
+<img onclick="mainOpen()" class="logo" src="./img/logo.svg" alt="">
 <div class="textHeader">About Us</div>
 </div>
 <div class="search">
 <img class="searchIcon" src="./img/Search.svg" alt="">
 <input type="text" placeholder="Search for minimalist chair">
 </div>
-<img class="busket" src="./img/busket.svg" alt="">
+<img class="busket" onclick="buildModals(event)" src="./img/busket.svg" alt="">
+<div class="numberNon"></div>
 `
 document.body.appendChild(header);
 
@@ -174,7 +252,6 @@ divTwo.classList.add('backgroundTwo');
 document.body.appendChild(divOne)
 document.body.appendChild(divTwo)
 
-const carousel = function(){
     let carouselExampleCaptions = document.createElement('div');
     carouselExampleCaptions.classList.add('slides');
     carouselExampleCaptions.innerHTML=`
@@ -208,7 +285,7 @@ const carousel = function(){
         <p class="subtitle">${nameOfTheMain[1].subtitle}</p>
         <div class="flex">
         <p>${nameOfTheMain[1].price}</p>
-        <a href=""><img class="iconSlide" src="./img/arrow.svg" alt=""></a>
+        <img class="iconSlide" src="./img/arrow.svg" alt="">
         </div>
         </div>
         </div>
@@ -219,7 +296,7 @@ const carousel = function(){
         <p class="subtitle">${nameOfTheMain[2].subtitle}</p>
         <div class="flex">
         <p>${nameOfTheMain[2].price}</p>
-        <a href=""><img class="iconSlide" src="./img/arrow.svg" alt=""></a>
+        <img class="iconSlide" src="./img/arrow.svg" alt="">
         </div>
         </div>
         </div>
@@ -253,9 +330,6 @@ const carousel = function(){
 </div>
     `
     document.body.appendChild(carouselExampleCaptions);
-}
-
-carousel();
 
 let divIcon = document.createElement('div');
 divIcon.classList.add('divIcon');
@@ -300,17 +374,18 @@ document.body.appendChild(divText);
 let divProduct = document.createElement('div');
 divProduct.classList.add('divProduct');
 document.body.appendChild(divProduct);
-tolety.forEach((el,index)=>{
+products.forEach((el,index)=>{
     let elPr = document.createElement('div');
     elPr.classList.add('elPr');
     elPr.innerHTML=`
-    <img src="${el.img}" alt="">
+    <img onclick="openProd(this)" src="${el.img}" alt="">
     <div class="content">
     <div class="elPrTitle">${el.title}</div>
     <div class="elPrSubTitle">${el.subTitle}</div>
     <div class="flex position">
     <div class="elPrSubNewPrice">${el.newPrice}</div>
     <div class="elPrSubPrice">${el.price}</div>
+    <button class="cardBtn" onclick="card(this)">В корзину</button>
     </div>
     </div>
     `
@@ -320,6 +395,29 @@ tolety.forEach((el,index)=>{
 
 let btn = document.createElement('div');
 btn.classList.add('btnm');
+btn.addEventListener('click', function (){
+ShowMore.forEach((el,index)=>{
+    let elPr = document.createElement('div');
+    elPr.classList.add('elPr');
+    elPr.innerHTML=`
+    <img onclick="openProd(this)" src="${el.img}" alt="">
+    <div class="content">
+    <div class="elPrTitle">${el.title}</div>
+    <div class="elPrSubTitle">${el.subTitle}</div>
+    <div class="flex position">
+    <div class="elPrSubNewPrice">${el.newPrice}</div>
+    <div class="elPrSubPrice">${el.price}</div>
+    <button class="cardBtn" onclick="card(this)">В корзину</button>
+    </div>
+    </div>
+    `
+    let addContent = document.querySelector('.divProduct');
+addContent.appendChild(elPr);
+})
+    let addContent = document.querySelector('.divProduct');
+    addContent.appendChild(divProduct)
+})
+
 btn.innerHTML=`Show More`
 document.body.appendChild(btn);
 
@@ -349,6 +447,7 @@ document.body.appendChild(sliderDiv);
 
 let divTitle = document.createElement('div');
 divTitle.classList.add('divText');
+divTitle.classList.add('p');
 divTitle.innerHTML=`Tips & Tricks`;
 document.body.appendChild(divTitle);
 
@@ -757,4 +856,446 @@ footer.innerHTML=`
 </div>
 `
 
-document.body.appendChild(footer)
+document.body.appendChild(footer);
+
+let card = function(event){
+    let name = event.parentElement.parentElement.children[0].textContent;
+    busket.push(name);
+    localStorage.setItem('busket', JSON.stringify(busket));
+    let number = document.querySelector('.numberNon');
+    number.innerHTML=`${busket.length}`;
+
+    // if(localStorage.getItem('busket')?.length > 0){
+    //     // localStorage.setItem('busket', JSON.stringify(localStorage.getItem('busket') + name));
+    //     let data = JSON.parse(localStorage.getItem('busket'));
+    //     busket.push(name);
+    //     localStorage.setItem('busket', JSON.stringify(busket));
+    // }else{
+    //     // localStorage.setItem('busket', JSON.stringify(name));
+    //     localStorage.setItem('busket', JSON.stringify(busket));
+    // }
+    // localStorage.setItem('busket', JSON.stringify(busket));
+    // let data = JSON.parse(localStorage.getItem('busket'));
+    // console.log(data)
+    // busket.forEach((el,index)=>{
+    //     products.forEach((el,index)=>{
+    //         if(busket.el == el.title){
+    //             console.log(el)
+    //         }
+    //     })
+    // })
+}
+
+// function buildModal(event) {
+//     event.stopPropagation();
+//     const modal = document.createElement('div');
+//     modal.classList.add('modalWind');
+//     document.body.append(modal);
+//     for(let i = 0; i < busket.length; i++){
+//         products.forEach((el,index)=>{
+//             if(busket[i] === el.title){
+//                 let sum = 1;
+//                 let divProd = document.createElement('div');
+//                 divProd.classList.add('divProd');
+//                 divProd.classList.add('divProdBskt');
+//                 divProd.innerHTML=`
+//                 <img onclick="deleteProd(this)" class="iconBskt" src="./img/gridicons_cross.svg" />
+//                 <img class="bsktImg" src="${el.img}" alt="">
+//                 <div class=" bgBskt">
+//                 <div class="elPrTitle positionText">${el.title}</div>
+//                 <div class="elPrSubTitle positionSubTitle">${el.subTitle}</div>
+//                 <div class="elPrSubNewPrice">${el.newPrice}</div>
+//                 <div class="flex">
+//                 <div class="minus"><img src="./img/ant-design_minus-outlined.png" /></div>
+//                 <div class="nmbr">${sum}</div>
+//                 <div class="plus"><img src="./img/gridicons_cross.png" /></div>
+//                 </div>
+//                 </div>
+//                 `
+//                 modal.append(divProd);
+//             }
+//         })
+//     }
+// };
+
+// function closeModal(event) {
+//     if(!event.target.classList.contains('modalWind')) {
+//         const modal = document.querySelector('.modalWind');
+//         modal.remove();
+//     }
+// }
+
+// document.addEventListener('click', closeModal);
+
+// // function deleteProd(event){
+// //     console.log(event.parentElement.parentElement)
+// // }
+
+function buildModals(event) {
+    console.log('test')
+    let main = document.querySelector('.slides');
+    main.classList.add('none');
+
+    let mainTwo = document.querySelector('.divIcon ');
+    mainTwo.classList.add('none');
+
+    let mainThree = document.querySelector('.divText');
+    mainThree.classList.add('none');
+
+    let mainCont = document.querySelector('.divProduct');
+    mainCont.classList.remove('none');
+    mainCont.classList.add('none');
+
+    let mainContein = document.querySelector('.btnm');
+    mainContein.classList.add('none');
+
+    let mainConteiner = document.querySelector('.sliderDiv');
+    mainConteiner.classList.add('none');
+
+    let mainConteiners = document.querySelector('.divText');
+    mainConteiners.classList.add('none');
+
+    let mainConteinerss = document.querySelector('.mt');
+    mainConteinerss.classList.add('none');
+
+    let mainConteinersss = document.querySelector('.p');
+    mainConteinersss.classList.add('none');
+
+    let mainC = document.querySelector('.newDiv');
+    mainC.classList.add('none');
+
+    let mainT = document.querySelector('.divSubTitle');
+    mainT.classList.add('none');
+
+    let mainTitle = document.querySelector('.divText ');
+    mainTitle.classList.add('none');
+
+    let mainGilleru = document.querySelector('.gallery ');
+    mainGilleru.classList.add('none');
+
+    let bgOne = document.querySelector('.backgroundOne ');
+    bgOne.classList.add('newBG');
+
+    let bgTwo = document.querySelector('.backgroundTwo ');
+    bgTwo.classList.add('newBG');
+
+    const buskets = document.createElement('div');
+    const busketsnone = document.createElement('div');
+    busketsnone.classList.add('busketsnone');
+    buskets.classList.add('buskets');
+    buskets.classList.add('grid');
+    // document.body.append(buskets);
+    for(let i = 0; i < busket.length; i++){
+        products.forEach((el,index)=>{
+            if(busket[i] === el.title){
+                let sum = 1;
+                let divProd = document.createElement('div');
+                divProd.classList.add('divProd');
+                divProd.classList.add('divProdBskt');
+                divProd.innerHTML=`
+                <img onclick="deleteProd(this)" class="iconBskt" src="./img/gridicons_cross.svg" />
+                <img class="bsktImg" src="${el.img}" alt="">
+                <div class=" bgBskt">
+                <div class="elPrTitle positionText">${el.title}</div>
+                <div class="elPrSubTitle positionSubTitle">${el.subTitle}</div>
+                <div class="flex pos">
+                <div class="elPrSubNewPrice">${el.newPrice}</div>
+                <div>$</div>
+                </div>
+                <div class="flex">
+                <div class="minus" onclick="plusMinus(this)"><img src="./img/ant-design_minus-outlined.png" /></div>
+                <div class="nmbr">${sum}</div>
+                <div class="plus" onclick="plusProd(this)"><img src="./img/gridicons_cross.png" /></div>
+                </div>
+                </div>
+                `
+                buskets.append(divProd);
+            }
+        })
+        busketsnone.appendChild(buskets)
+
+        let divSum = document.createElement('div');
+        let sums= document.querySelectorAll('.elPrSubNewPrice').value;
+        console.log(sums)
+        divSum.classList.add('sum');
+        divSum.innerHTML=`
+        
+        `
+    }
+
+    let footer = document.querySelector('.footer');
+    let body = document.querySelector('.footer').parentElement;
+    body.insertBefore(busketsnone, footer);
+}
+
+
+let plusProd =  function(event){
+    console.log(event.parentElement.children[1])
+    let now = Number(event.parentElement.children[1].textContent)
+    let div = event.parentElement.children[1];
+    div.innerHTML=`
+    ${now+1}
+    `
+    let a = 1;
+    a = a + 1;
+    if(now > 1){
+        let sum = event.parentElement.children[1].parentElement.parentElement;
+    let numberTwo = sum.querySelector('.elPrSubNewPrice')
+        let number = Number(sum.querySelector('.elPrSubNewPrice').textContent)
+        numberTwo.innerHTML=`
+        ${number*now}
+        `
+    }
+}
+
+let plusMinus =  function(event){
+    console.log(event.parentElement.children[1])
+    let now = Number(event.parentElement.children[1].textContent)
+    let div = event.parentElement.children[1];
+    div.innerHTML=`
+    ${now-1}
+    `
+    if(now > 1){
+        let sum = event.parentElement.children[1].parentElement.parentElement;
+    let numberTwo = sum.querySelector('.elPrSubNewPrice')
+        let number = Number(sum.querySelector('.elPrSubNewPrice').textContent)
+        numberTwo.innerHTML=`
+        ${number*now}
+        `
+    }
+}
+
+let mainOpen = function(){ 
+    console.log('test')
+    let busketss = document.querySelector('.divProdBskt');
+    busketss.classList.add('none');
+    let buskets = document.querySelector('.busketsnone');
+    let busket = buskets.querySelector('.buskets');
+    busket.classList.remove('grid');
+    busket.classList.add('none');
+
+    let main = document.querySelector('.slides');
+    main.classList.remove('none');
+
+    let mainTwo = document.querySelector('.divIcon ');
+    mainTwo.classList.remove('none');
+
+    let mainThree = document.querySelector('.divText');
+    mainThree.classList.remove('none');
+
+    let mainCont = document.querySelector('.divProduct');
+    // mainCont.classList.remove('none');
+    mainCont.classList.remove('none');
+
+    let mainContein = document.querySelector('.btnm');
+    mainContein.classList.remove('none');
+
+    let mainConteiner = document.querySelector('.sliderDiv');
+    mainConteiner.classList.remove('none');
+
+    let mainConteiners = document.querySelector('.divText');
+    mainConteiners.classList.remove('none');
+
+    let mainConteinerss = document.querySelector('.mt');
+    mainConteinerss.classList.remove('none');
+
+    let mainConteinersss = document.querySelector('.p');
+    mainConteinersss.classList.remove('none');
+
+    let mainC = document.querySelector('.newDiv');
+    mainC.classList.remove('none');
+
+    let mainT = document.querySelector('.divSubTitle');
+    mainT.classList.remove('none');
+
+    let mainTitle = document.querySelector('.divText ');
+    mainTitle.classList.remove('none');
+
+        let gallerys = document.createElement('div');
+    gallerys.classList.add('gallery');
+    gallerys.innerHTML=`
+    <img class="one" src="${gallery[0]}" alt="" />
+    <img class="two" src="${gallery[1]}" alt="" />
+    <img class="three" src="${gallery[2]}" alt="" />
+    <img class="four" src="${gallery[3]}" alt="" />
+    <img class="five" src="${gallery[4]}" alt="" />
+    <img class="six" src="${gallery[5]}" alt="" />
+    <img class="seven" src="${gallery[6]}" alt="" />
+    <img class="eight" src="${gallery[7]}" alt="" />
+    <img class="nine" src="${gallery[8]}" alt="" />
+    `
+
+    let footer = document.querySelector('.footer');
+    let body = document.querySelector('.footer').parentElement;
+    body.insertBefore(gallerys, footer);
+    console.log(document.querySelector('.footer').parentElement)
+
+    let bgOne = document.querySelector('.newBG ');
+    bgOne.classList.add('newBGOne');
+
+    let bgTwo = document.querySelector('.backgroundTwo ');
+    bgTwo.classList.add('newBGTwo');
+}
+
+
+const openProd = function (event){
+
+    let title = event.parentElement.children[1].children[0].textContent;
+    let subTitle = event.parentElement.children[1].children[1].textContent;
+    let newPrice = event.parentElement.children[1].children[2].children[0].textContent;
+    let price = event.parentElement.children[1].children[2].children[1].textContent;
+    let img = event.parentElement.children[0];
+
+
+    let main = document.querySelector('.slides');
+    main.classList.add('none');
+
+    let mainTwo = document.querySelector('.divIcon ');
+    mainTwo.classList.add('none');
+
+    let mainThree = document.querySelector('.divText');
+    mainThree.classList.add('none');
+
+    let mainCont = document.querySelector('.divProduct');
+    mainCont.classList.remove('none');
+    mainCont.classList.add('none');
+
+    let mainContein = document.querySelector('.btnm');
+    mainContein.classList.add('none');
+
+    let mainConteiner = document.querySelector('.sliderDiv');
+    mainConteiner.classList.add('none');
+
+    let mainConteiners = document.querySelector('.divText');
+    mainConteiners.classList.add('none');
+
+    let mainConteinerss = document.querySelector('.mt');
+    mainConteinerss.classList.add('none');
+
+    let mainConteinersss = document.querySelector('.p');
+    mainConteinersss.classList.add('none');
+
+    let mainC = document.querySelector('.newDiv');
+    mainC.classList.add('none');
+
+    let mainT = document.querySelector('.divSubTitle');
+    mainT.classList.add('none');
+
+    let mainTitle = document.querySelector('.divText ');
+    mainTitle.classList.add('none');
+
+    let mainGilleru = document.querySelector('.gallery ');
+    mainGilleru.classList.add('none');
+
+    let bgOne = document.querySelector('.backgroundOne ');
+    bgOne.classList.add('newBG');
+
+    let bgTwo = document.querySelector('.backgroundTwo ');
+    bgTwo.classList.add('newBG');
+
+    let prod = document.createElement('div');
+    prod.classList.add('prod')
+    let footer = document.querySelector('.footer');
+    let body = document.querySelector('.footer').parentElement;
+    body.insertBefore(prod, footer);
+
+    console.log(img.textContent)
+
+    products.forEach((el, index)=>{
+        if(title === el.title){
+            let div = document.createElement('div');
+            div.classList.add('textC');
+            div.innerHTML=`
+            <img class="bsktImgNew" src="${el.img}" alt="">
+            <div class="textInfo">${el.info}</div>
+            <img onclock ="back()" class="back" src="./img/icons8-длинная-стрелка-влево-30.png" />
+            `
+            document.body.append(div)
+            console.log(div)
+        }
+    })
+
+    prod.innerHTML=`
+    <div class=" bgBskt">
+        <div class="bgCardTitle">${title}</div>
+        <div class="bgCardText">${subTitle}</div>
+        <div class="flex pos">
+        <div class="elPrSubNewPrice">${newPrice + '$'}</div>
+        <button class="nBtnCard">в корзину</button>
+        </div>
+        </div>
+    `
+
+    let backMain = document.querySelector('.back');
+backMain.addEventListener('click',function(){
+    let bgBskt = document.querySelector('.bgBskt');
+    bgBskt.classList.add('none');
+
+    let textC = document.querySelector('.textC');
+    textC.classList.add('none')
+
+    let main = document.querySelector('.slides');
+    main.classList.remove('none');
+
+    let mainTwo = document.querySelector('.divIcon ');
+    mainTwo.classList.remove('none');
+
+    let mainThree = document.querySelector('.divText');
+    mainThree.classList.remove('none');
+
+    let mainCont = document.querySelector('.divProduct');
+    // mainCont.classList.remove('none');
+    mainCont.classList.remove('none');
+
+    let mainContein = document.querySelector('.btnm');
+    mainContein.classList.remove('none');
+
+    let mainConteiner = document.querySelector('.sliderDiv');
+    mainConteiner.classList.remove('none');
+
+    let mainConteiners = document.querySelector('.divText');
+    mainConteiners.classList.remove('none');
+
+    let mainConteinerss = document.querySelector('.mt');
+    mainConteinerss.classList.remove('none');
+
+    let mainConteinersss = document.querySelector('.p');
+    mainConteinersss.classList.remove('none');
+
+    let mainC = document.querySelector('.newDiv');
+    mainC.classList.remove('none');
+
+    let mainT = document.querySelector('.divSubTitle');
+    mainT.classList.remove('none');
+
+    let mainTitle = document.querySelector('.divText ');
+    mainTitle.classList.remove('none');
+
+        let gallerys = document.createElement('div');
+    gallerys.classList.add('gallery');
+    gallerys.innerHTML=`
+    <img class="one" src="${gallery[0]}" alt="" />
+    <img class="two" src="${gallery[1]}" alt="" />
+    <img class="three" src="${gallery[2]}" alt="" />
+    <img class="four" src="${gallery[3]}" alt="" />
+    <img class="five" src="${gallery[4]}" alt="" />
+    <img class="six" src="${gallery[5]}" alt="" />
+    <img class="seven" src="${gallery[6]}" alt="" />
+    <img class="eight" src="${gallery[7]}" alt="" />
+    <img class="nine" src="${gallery[8]}" alt="" />
+    `
+
+    let footer = document.querySelector('.footer');
+    let body = document.querySelector('.footer').parentElement;
+    body.insertBefore(gallerys, footer);
+    console.log(document.querySelector('.footer').parentElement)
+
+    let bgOne = document.querySelector('.newBG ');
+    bgOne.classList.add('newBGOne');
+
+    let bgTwo = document.querySelector('.backgroundTwo ');
+    bgTwo.classList.add('newBGTwo');
+})
+}
+
+
